@@ -1,0 +1,22 @@
+[campaign]
+name = "paper_main_33"
+output = "results/paper_main_33"
+problems = [
+  "AP2", "AP3", "BK1", "DGO1M", "DGO2", "Far1", "FF1", "JOS1",
+  "MOP2", "MOP3", "QV1", "SP1", "ZDT2", "MLF1", "AP1", "AP4",
+  "FDS", "IKK1", "LTDZ", "MHHM2", "MOP5", "MGH16", "MGH33",
+  "ZLT1", "MOP7", "SLCDT2", "UF8", "UF10", "DTLZ2_M5",
+  "DTLZ3_M5", "DTLZ4_M5", "DTLZ7_M5", "DTLZ3_M10",
+]
+methods = ["GD", "SD", "SDNM"]
+blocks = 5
+base_seed = 20260210
+
+[budget]
+gd_starts = 50
+gd_weights = 6
+sd_runs = 300
+max_iterations = 20000
+
+[analysis]
+hypervolume = true

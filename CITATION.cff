@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "General descent methods for unconstrained multiobjective optimization via dynamic scalarization"
+type: software
+authors:
+  - family-names: Andreani
+    given-names: Roberto
+  - family-names: Begot
+    given-names: L. S.
+  - family-names: Prudente
+    given-names: L. F.
+  - family-names: Secchin
+    given-names: L. D.
+date-released: 2026-11-16
