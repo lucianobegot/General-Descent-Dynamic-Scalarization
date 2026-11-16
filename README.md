@@ -68,9 +68,6 @@ All methods have a safeguard of 20,000 iterations. Objective scaling is off.
 The complete numerical parameters are written explicitly in
 `experiment_tools.jl` and `paper_campaign.toml`.
 
-GD maintains each run archive online and then inserts completed run archives
-into a persistent nondominated archive. The final campaign-wide quadratic
-filter used by the older code is therefore unnecessary.
 
 ## Output and analysis
 
