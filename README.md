@@ -90,8 +90,7 @@ be expensive for large archives; use `--skip-hv` to postpone it.
 julia --project=. -e "using Pkg; Pkg.test()"
 ```
 
-The tests cover all three methods, the persistent archive, DGO2, a
-five-objective problem, and a one-iteration ten-objective smoke test.
+The tests cover all three methods, the persistent archive, and representative five- and ten-objective problems.
 
 ## Scope
 
