@@ -88,11 +88,3 @@ julia --project=. -e "using Pkg; Pkg.test()"
 ```
 
 The tests cover all three methods, the persistent archive, and representative five- and ten-objective problems.
-
-## Scope
-
-The package intentionally excludes SSH scripts, cluster sharding, experimental
-variants, and Front Descent implementations. They are not needed to understand
-or reproduce the main GD--SD--SD-NM experiment.
-
-Before public release, the authors must select and add a software license.
